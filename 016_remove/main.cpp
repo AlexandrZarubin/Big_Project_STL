@@ -64,7 +64,7 @@ int main()
 	}
 	string str = "Текст с несколькими  пробелами";
 	cout << str << endl;
-	str.erase(remove(str.begin(), str.end(), '  '), str.end());
+	str.erase(remove(str.begin(), str.end(), ' '), str.end());
 	cout << str << endl;
 	return 0;
 }
